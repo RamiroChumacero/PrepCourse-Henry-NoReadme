@@ -1,0 +1,18 @@
+1 - ingresar a github.com
+2 - mi perfil>your repositories
+3 - creamos nuestro repositorio "PrepCourse Henry"
+4 - CLONAR el repo que esta en la pagina github.com a nuestra pc local
+5 - en github.com CLONE>https>copiar
+6 - vamos al escritorio de nuestra computadora y abrimos el gitbash
+7 - comando: git clone https://github.com/RamiroChumacero/PrepCourse-Henry.git
+7 - descarga el repo de la nube a nuestro escritorio local
+8 - modificamos el archivo README.md que esta en la nube
+9 - agregamos el README.md con el comando: git add README.md
+10- hacemos una foto y guardamos la modificacion con el commit
+
+
+SINCRONIZAR NUESTRO PrepCourse Henry en el escritorio con nuestro
+PrepCourse Henry que se encuentra en la nube con:
+comando: git push origin main
+origin: origen donde queremos enviar la informacion
+main: rama de trabajo a la cual la enviaremos
