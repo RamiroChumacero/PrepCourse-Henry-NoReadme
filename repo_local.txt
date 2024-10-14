@@ -1,0 +1,26 @@
+
+COMANDOS PARA REPOSITORIO LOCAL EN NUESTRA PC
+1 - inicializar un repositorio local:
+comando:git init
+
+2 - para saber que tenemos una carpeta .git y nunca debe ser borrada
+comando:ls -a
+
+3 - p/ verfificar el estado actual y confirmamos que estamos
+dentro del repositorio local.
+comando:git status
+
+4a - agregamos el archivo "mi primer repositorio.txt" a .git
+comando:git add "mi primer repositorio.txt"
+
+4b - agregar muchos archivos al git.tener cuidado porque agrega todo
+comando: git add .
+
+5 - tomar foto y guardar las modificaciones que hicimos
+en la carpeta .git.Lo que va en comillas es un msj para identificar
+que fue lo que se modifico
+comando: git commit -m "Se Agrego al .git el archivo mi primer repositorio"
+
+6- verificar cuantos y cuales commit tenemos actualmente en nuestro
+repositorio local.Lista los commit existentes
+comando: git log
